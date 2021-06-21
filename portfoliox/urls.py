@@ -15,7 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from slur.views import (
+    homey,
+    contactly,
+    aboutly
+)
+from hmm.views import workiey
+from huft.views import blogs, blog_single
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', homey, name="homey"),
+    path('workies/', workiey, name="workiey"),
+    path('contact/', contactly, name="contactly"),
+    path('about/', aboutly, name="aboutly"),
+    path('blog/', blogs, name="blogs"),
+    path('blog-single/', blog_single, name="blog_single")
 ]
