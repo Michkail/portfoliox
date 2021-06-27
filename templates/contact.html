@@ -28,7 +28,9 @@
       <div class="row block-9">
         <div class="col-md-8">
 
-          <form action="#" class="p-4 p-md-5 contact-form">
+          <form mwthod="POST" action="#" class="p-4 p-md-5 contact-form">
+          {% csrf_token %}
+            {{ form.as_p }}
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
