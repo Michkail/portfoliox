@@ -3,13 +3,13 @@
 
 {% block content %}
 <title>{% block head_title %}{{instance.title}}Work | {{ block.super }}{% endblock head_title %}</title>
-	<section class="hero-wrap hero-wrap-2 degree-right" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap hero-wrap-2 degree-huft" style="background-image: url('{% static 'images/bg/5.png' %}');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-end">
 				<div class="col-md-9 ftco-animate pb-5 mb-5">
 					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Work <i class="fa fa-chevron-right"></i></span></p>
-					<h1 class="mb-3 bread">Work</h1>
+					<h2 class="mb-3 bread">Work</h2>
 				</div>
 			</div>
 		</div>
@@ -26,7 +26,7 @@
 			<div class="row no-gutters pb-5">
 				<div class="col-md-12 portfolio-wrap mt-0">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 img" style="background-image: url(images/work-1.jpg);">
+						<div class="col-md-5 img" style="background-image: url({% static 'images/work-1.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -40,7 +40,7 @@
 										<div class="absolute">
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_1.jpg);"></div>
+												<div class="img" style="background-image: url({% static 'images/person_1.jpg' %});"></div>
 												<div class="position pl-3">
 													<h4 class="mb-0">Jamie Jonson</h4>
 													<span>avo.com</span>
@@ -57,7 +57,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-2.jpg);">
+						<div class="col-md-5 order-md-last img" style="background-image: url({% static 'images/work-2.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -72,7 +72,7 @@
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="d-flex w-100">
 												<div class="icon d-flex align-items-center ml-md-auto mb-4">
-													<div class="img" style="background-image: url(images/person_2.jpg);"></div>
+													<div class="img" style="background-image: url({% static 'images/person_2.jpg' %});"></div>
 													<div class="position pl-3 text-left">
 														<h4 class="mb-0">Jamie Jonson</h4>
 														<span>avo.com</span>
@@ -90,7 +90,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 img" style="background-image: url(images/work-3.jpg);">
+						<div class="col-md-5 img" style="background-image: url({% static 'images/work-3.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -104,7 +104,7 @@
 										<div class="absolute">
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_3.jpg);"></div>
+												<div class="img" style="background-image: url({% static 'images/person_3.jpg' %});"></div>
 												<div class="position pl-3">
 													<h4 class="mb-0">Jamie Jonson</h4>
 													<span>avo.com</span>
@@ -121,7 +121,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-4.jpg);">
+						<div class="col-md-5 order-md-last img" style="background-image: url({% static 'images/work-4.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -136,7 +136,7 @@
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="d-flex w-100">
 												<div class="icon d-flex align-items-center ml-md-auto mb-4">
-													<div class="img" style="background-image: url(images/person_2.jpg);"></div>
+													<div class="img" style="background-image: url({% static 'images/person_2.jpg' %});"></div>
 													<div class="position pl-3 text-left">
 														<h4 class="mb-0">Jamie Jonson</h4>
 														<span>avo.com</span>
@@ -154,7 +154,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 img" style="background-image: url(images/work-5.jpg);">
+						<div class="col-md-5 img" style="background-image: url({% static 'images/work-5.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -168,7 +168,7 @@
 										<div class="absolute">
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_2.jpg);"></div>
+												<div class="img" style="background-image: url({% static 'images/person_2.jpg' %});"></div>
 												<div class="position pl-3">
 													<h4 class="mb-0">Jamie Jonson</h4>
 													<span>avo.com</span>
@@ -185,7 +185,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-6.jpg);">
+						<div class="col-md-5 order-md-last img" style="background-image: url({% static 'images/work-6.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -200,7 +200,7 @@
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="d-flex w-100">
 												<div class="icon d-flex align-items-center ml-md-auto mb-4">
-													<div class="img" style="background-image: url(images/person_2.jpg);"></div>
+													<div class="img" style="background-image: url({% static 'images/person_2.jpg' %});"></div>
 													<div class="position pl-3 text-left">
 														<h4 class="mb-0">Jamie Jonson</h4>
 														<span>avo.com</span>
@@ -218,7 +218,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 img" style="background-image: url(images/work-7.jpg);">
+						<div class="col-md-5 img" style="background-image: url({% static 'images/work-7.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -232,7 +232,7 @@
 										<div class="absolute">
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_2.jpg);"></div>
+												<div class="img" style="background-image: url({% static 'images/person_2.jpg' %});"></div>
 												<div class="position pl-3">
 													<h4 class="mb-0">Jamie Jonson</h4>
 													<span>avo.com</span>
@@ -249,7 +249,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-8.jpg);">
+						<div class="col-md-5 order-md-last img" style="background-image: url({% static 'images/work-8.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -264,7 +264,7 @@
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="d-flex w-100">
 												<div class="icon d-flex align-items-center ml-md-auto mb-4">
-													<div class="img" style="background-image: url(images/person_2.jpg);"></div>
+													<div class="img" style="background-image: url({% static 'images/person_2.jpg' %});"></div>
 													<div class="position pl-3 text-left">
 														<h4 class="mb-0">Jamie Jonson</h4>
 														<span>avo.com</span>
@@ -282,7 +282,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 img" style="background-image: url(images/work-9.jpg);">
+						<div class="col-md-5 img" style="background-image: url({% static 'images/work-9.jpg' %});">
 							
 						</div>
 						<div class="col-md-7">
@@ -296,7 +296,7 @@
 										<div class="absolute">
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_2.jpg);"></div>
+												<div class="img" style="background-image: url({% static 'images/person_2.jpg' %});"></div>
 												<div class="position pl-3">
 													<h4 class="mb-0">Jamie Jonson</h4>
 													<span>avo.com</span>

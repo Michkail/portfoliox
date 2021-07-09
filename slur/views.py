@@ -2,9 +2,14 @@ from django.shortcuts import render
 from .forms import ContactForm
 from django.core.mail import message, send_mail, BadHeaderError
 from django.http import HttpResponse
+from .models import BackStellar
 
 def homey(request):
-  return render(request, 'homey.html')
+	jnck = BackStellar.objects.filter(id=2)
+	context = {
+		'Testnih': jnck,
+	}
+	return render(request, 'homey.html', context)
 
 def contactly(request):
   """

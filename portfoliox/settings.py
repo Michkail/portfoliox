@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'portfolio',
         'USER': 'waffle',
-        'PASSWORD': 'j4N3tB45t4rD',
+        'PASSWORD': 'amyfebryanting',
         'HOST': 'localhost',
         'PORT': ''
     }
@@ -133,6 +133,10 @@ STATIC_URL = '/aktiva/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'aktiva')
 ]
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'aktiva')
+
+MEDIA_URL = '/aktiva/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
